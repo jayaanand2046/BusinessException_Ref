@@ -3,6 +3,7 @@
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
+    "Acme_Library": "[1.0.6]",
     "UiPath.Excel.Activities": "[2.16.0]",
     "UiPath.System.Activities": "[22.10.3]",
     "UiPath.Testing.Activities": "[22.10.0]",
@@ -20,6 +21,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
